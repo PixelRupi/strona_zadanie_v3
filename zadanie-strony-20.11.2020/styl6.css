@@ -1,0 +1,52 @@
+body{
+  font-family: Tahoma,Verdana,Segoe,sans-serif; 
+}
+
+#banner{
+ background-color: #48d1ff;
+ color: white;
+ text-align: center;
+ padding: 5px;
+}
+
+#ciasteczka{
+  background-color: rgb(139, 69, 19);
+  color: white;
+  padding: 10px;
+}
+
+#panel_lewy{
+  float: left;
+  background-color: rgb(175, 238, 238);
+  width: 70%;
+  height: 600px;
+}
+
+#panel_prawy{
+  float: left;
+  background-color: rgb(175, 238, 238);
+  width: 30%;
+  height: 600px;
+}
+
+#stopka{
+  clear: both;
+  background-color: #48d1ff;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+p{
+  font-size: 150%;
+}
+
+img{
+  border: solid grey 1px;
+  height: 250px;
+  padding: 5px;
+}
+
+img:hover{
+  transform: rotate(180deg);
+}
